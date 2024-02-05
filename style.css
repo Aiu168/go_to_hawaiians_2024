@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*画面上部のタイトル画像のサイズ調整*/
+img.headerimg {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*画面下部の背景の設定*/
+#footer {
+    background-image: url('Images/Footer_Background.png');
+    background-size: cover;
+}
+/*HOMEのボタンのサイズ・配置調整*/
+img.homebuttons {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*各画面のタイトル画像のサイズ・配置調整*/
+img.topicons {
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Linkの下線を消す*/
+a {
+    text-decoration: none;
+}
