@@ -14,4 +14,6 @@ includeHeader.onreadystatechange = function() {
         const header = document.querySelector("#header");
         header.insertAdjacentHTML("afterbegin", headerHTML);
     }
-}
+};
+includeHeader.send();
+
