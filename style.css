@@ -13,16 +13,16 @@ img.headerimg {
 }
 /*HOMEのボタンのサイズ・配置調整*/
 img.homebuttons {
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 /*各画面のタイトル画像のサイズ・配置調整*/
 img.topicons {
-    width: 40%;
-    height: 40%;
+    width: 70%;
+    height: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -30,4 +30,47 @@ img.topicons {
 /*Linkの下線を消す*/
 a {
     text-decoration: none;
+}
+/*各ページの見出し(h1)の色・サイズ・配置調整*/
+h1 {
+    font-size: 150%;
+    color: white;
+    background-color: rgb(255, 136, 0);
+    font-weight: 900;
+}
+/*各ページの地の文(h2)の色・サイズ・配置調整*/
+h2 {
+    font-size: 100%;
+    font-weight: 100;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*各ページのTableの色・サイズ・配置調整*/
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-collapse: collapse;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+th {
+    border: solid;
+    padding: 1%;
+    border-color: white;
+    color: white;
+    background-color: rgb(255, 136, 0);
+}
+td {
+    border: solid;
+    padding: 1%;
+    border-color: rgb(255, 136, 0);
+}
+/*マイナス値を赤字にする*/
+.minus_value {
+    color: red;
+}
+/*特定のClassの文字を太くする*/
+.font_thicker {
+    font-weight: 800;
 }
