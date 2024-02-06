@@ -74,3 +74,7 @@ td {
 .font_thicker {
     font-weight: 800;
 }
+/*特定のClassの文字を中央寄せする*/
+.align_center {
+    text-align: center;
+}
