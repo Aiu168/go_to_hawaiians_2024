@@ -27,10 +27,6 @@ img.topicons {
     margin-left: auto;
     margin-right: auto;
 }
-/*Linkの下線を消す*/
-a {
-    text-decoration: none;
-}
 /*各ページの見出し(h1)の色・サイズ・配置調整*/
 h1 {
     font-size: 150%;
@@ -65,6 +61,60 @@ td {
     border: solid;
     padding: 1%;
     border-color: rgb(255, 136, 0);
+}
+/*スケジュール画像のサイズ・配置調整*/
+img.img_schedule {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*各ページのTabの色・サイズ・配置調整*/
+/*Tab切替全体のスタイル*/
+.tabs {
+    background-color: white;
+    width: 95%;
+    margin-left: 2%;
+}
+/*Tabのスタイル*/
+.tab_item {
+    border: solid rgb(255, 136, 0);
+    background-color: white;
+    text-align: center;
+    font-weight: 700;
+    padding: 2%;
+    display: block;
+    float: left;
+}
+/*radioボタンの非表示*/
+input[name="tab_item"] {
+    display: none;
+}
+/*Tab切替のContentのスタイル*/
+.tab_content {
+    display: none;
+    padding-top: 10%;
+}
+/*選択中のTabのContentのみ表示*/
+#day1:checked ~ #day1_content,
+#day2:checked ~ #day2_content,
+#day3:checked ~ #day3_content {
+    display: block;
+}
+/*選択中のTabのスタイルを変更*/
+.tabs input:checked + .tab_item {
+    background-color: rgb(255, 136, 0) ;
+    color: white;
+}
+
+
+
+/*■共通パーツ*/
+/*Linkの下線を消す*/
+a {
+    text-decoration: none;
 }
 /*マイナス値を赤字にする*/
 .minus_value {
